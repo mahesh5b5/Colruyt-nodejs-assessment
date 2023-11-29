@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.054" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-11-29T20:06:17" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="stock_trades_api_easy_sequelize" timestamp="2023-11-29T20:06:17" tests="7" file="/Users/in22914054/Desktop/74023b85-7052-42b3-884d-7e98e75f1b39/test/index.spec.js" time="0.053" failures="0">
+    <testcase name="stock_trades_api_easy_sequelize should create a new trade" time="0.019" classname="should create a new trade">
+    </testcase>
+    <testcase name="stock_trades_api_easy_sequelize should fetch all the trades" time="0.007" classname="should fetch all the trades">
+    </testcase>
+    <testcase name="stock_trades_api_easy_sequelize should fetch a single trade" time="0.004" classname="should fetch a single trade">
+    </testcase>
+    <testcase name="stock_trades_api_easy_sequelize should get 404 if the trade ID does not exist" time="0.001" classname="should get 404 if the trade ID does not exist">
+    </testcase>
+    <testcase name="stock_trades_api_easy_sequelize should get 405 for a put request to /trades/:id" time="0.003" classname="should get 405 for a put request to /trades/:id">
+    </testcase>
+    <testcase name="stock_trades_api_easy_sequelize should get 405 for a patch request to /trades/:id" time="0.004" classname="should get 405 for a patch request to /trades/:id">
+    </testcase>
+    <testcase name="stock_trades_api_easy_sequelize should get 405 for a delete request to /trades/:id" time="0.003" classname="should get 405 for a delete request to /trades/:id">
+    </testcase>
+  </testsuite>
+</testsuites>
